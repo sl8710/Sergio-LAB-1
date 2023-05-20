@@ -45,7 +45,7 @@ class PedestrianButton:
         Check if the pedestrian button is pressed.
         """
         print("Checking if pedestrian button is pressed.")
-        return self.button.value() == 1
+        return self.button.value(1) == 1
 
 
 class State:
