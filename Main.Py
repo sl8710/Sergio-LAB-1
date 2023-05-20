@@ -127,5 +127,5 @@ pedestrian_button = PedestrianButton(2)  # Assuming pedestrian button is connect
 # Initialize the traffic light system
 traffic_light_system = TrafficLightSystem(red_light, yellow_light, green_light, pedestrian_button)
 
-# Run the traffic light system
+# Run the traffic light system?
 traffic_light_system.run()
